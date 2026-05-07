@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # WebSphere & IBM MQ Fixpack 檢查工具
 
 這是一個自動化工具，用於檢查 WebSphere Application Server 和 IBM MQ 的最新 Fixpack 版本。
@@ -89,7 +88,3 @@ chmod +x check_fixpack.py
 ## 授權
 
 此工具僅供練習使用。
-=======
-# WAS-MQ-FP-Check
-check was and mq latest fixpack and release date
->>>>>>> b24ad136d5a35a415fbcab333cce1877f0281e1c
