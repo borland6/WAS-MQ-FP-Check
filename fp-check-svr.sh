@@ -10,4 +10,4 @@ else
 fi
 
 # 3. 啟動新的容器
-docker run -d --name ibmfp -p 8888:80 -v /home/dennis/ai-test/WAS-MQ-FP-Check/index.html:/usr/share/nginx/html/index.html nginx
+docker run -d --name ibmfp -p 8888:80 -v $(pwd)/index.html:/usr/share/nginx/html/index.html nginx
