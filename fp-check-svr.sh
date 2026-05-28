@@ -4,6 +4,7 @@ python3 check_fixpack.py
 cp -f fp-check.html index.html
 git add .
 git commit -m "${COMMIT_MSG}"
+git push
 # 1. 檢查是否存在名為 ibmfp 的容器（無論運行中或已停止）
 #if [ "$(docker ps -aq -f name=^ibmfp$)" ]; then
 #    echo "發現舊的容器，正在停止並移除..."
