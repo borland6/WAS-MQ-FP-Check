@@ -1,3 +1,4 @@
+cd /home/dennis/ai-test/WAS-MQ-FP-Check
 NOW=$(date +'%Y/%m/%d %H:%M:%S')
 COMMIT_MSG="modify index.html on ${NOW}"
 python3 check_fixpack.py
